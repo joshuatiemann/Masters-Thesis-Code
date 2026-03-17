@@ -1,0 +1,39 @@
+name: GNN_Locomotion
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - pyg
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy<2.0
+  - scipy
+  - pytorch=2.4.1
+  - pytorch-cuda=12.1
+  - torchaudio=2.4.1
+  - torchvision=0.19.1
+  - pytorch-lightning
+  - torchmetrics
+  - pyg=2.6.1
+  - pytorch-cluster
+  - pytorch-scatter
+  - pytorch-sparse
+  - pytorch-spline-conv
+  - pillow
+  - pyyaml
+  - tqdm
+  - ffmpeg
+  - pip
+  - pip:
+      - torchrl==0.6.0
+      - tensordict==0.6.2
+      - gymnasium==0.29.1
+      - mujoco==2.3.7
+      - glfw==2.8.0
+      - pyopengl==3.1.7
+      - vmas==1.5.2
+      - imageio==2.37.2
+      - matplotlib
+      - cloudpickle
+      - absl-py
